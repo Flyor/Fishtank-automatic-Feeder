@@ -37,7 +37,7 @@ PulseTime 4
 
 # Anschluss
 Auch wenn der Stellmotor für 12V ausgelegt ist, funktionert er auf 5V aus dem USB Netzteil ausreichend stark, um das Futter aus dem Spender abzusetzen. 
-Beim Anschluss des Stellmotors wird lediglich Plus und Minus benötigt. Hat man einen 5-poligen Stellmotor, muss man die beiden passenden Leitungen (durch ausprobieren) ermitteln. Der Rest bleibt unbelegt. Bitte beim Anschluss unbedingt darauf achten, dass am Relais der Wechsler für "NO / Normaly Open" genutzt wird - also den Schließer Kontakt. 
+Beim Anschluss des Stellmotors wird lediglich Plus und Minus benötigt. Hat man einen 5-poligen Stellmotor, muss man die beiden passenden Leitungen (durch ausprobieren) ermitteln. Der Rest bleibt unbelegt. Bitte beim Anschluss unbedingt darauf achten, dass am Relais der Wechsler für "NO / Normally Open" genutzt wird - also den Schließer Kontakt. 
 
 # Integration
 Mit Hilfe von Tasmota, ist das System nahezu überall integrierbar. Per MQTT oder direktem URL Kommando kann das System ebenfalls bedient werden. Auch eine Simulation des Gerätes für Alexa ist in Tasmoata onboard, so kann man beispielsweise ein Routine erstellen á la: "Alexa, füttere die Fische". 
