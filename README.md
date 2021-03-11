@@ -6,5 +6,5 @@ Creating an automatic feeding system for a fishtank, using a 3D Printer and a Se
 - 2x M3x16 Schrauben
 - 2x 3,5x16 Senkkopfschrauben
 - 2x 3,5x20 Senkkopfschrauben
-- Universal Stellmotor für Zentralverriegelung ![Vorschau:](https://1drv.ms/u/s!Ar-RGEUgUgkjiow1me7qlHlFJKf4EA?e=Cd9Jx8)
+- Universal Stellmotor für Zentralverriegelung ![Vorschau](https://github.com/Flyor/Fishtank-automatic-Feeder/blob/main/Servomotor.jpg)
 - 
