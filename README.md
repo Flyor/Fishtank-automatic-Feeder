@@ -20,6 +20,9 @@ Bitte das Bild abgleichen, es gibt auch optisch andere Varianten welche natürli
 - USB A zu USB Micro Kabel 
 - "JBL Click Dispenser"
 
+# 3D Druckteile
+Die Druckteile wurden alle in einer Auflösung von 0,2mm auf einem PRUSA MINI gefertigt, daher sind die beiden Chassis auch getrennt. Wer eine größere Druckfläche hat, kann dise natürlich zusammenfügen. Als Material wurde PETG verwendet, Infill 30%. 
+
 
 # Konfiguration Tasmota
 Lediglich 2 Konfigurationen sind in der Console des ESP nötig, dass nach dem Einschalten das Relais nach kurzer Zeit automatisch abfällt. 
@@ -34,7 +37,12 @@ PulseTime 4
 
 # Anschluss
 Auch wenn der Stellmotor für 12V ausgelegt ist, funktionert er auf 5V aus dem USB Netzteil ausreichend stark, um das Futter aus dem Spender abzusetzen. 
-Beim Anschluss des Stellmotors wird lediglich Plus und Minus benötigt. Hat man einen 5-poligen Stellmotor, muss man die beiden passenden Leitungen (durch ausprobieren) ermitteln. Der Rest bleibt unbelegt. 
+Beim Anschluss des Stellmotors wird lediglich Plus und Minus benötigt. Hat man einen 5-poligen Stellmotor, muss man die beiden passenden Leitungen (durch ausprobieren) ermitteln. Der Rest bleibt unbelegt. Bitte beim Anschluss unbedingt darauf achten, dass am Relais der Wechsler für "NO / Normaly Open" genutzt wird - also den Schließer Kontakt. 
+
+# Integration
+Mit Hilfe von Tasmota, ist das System nahezu überall integrierbar. Per MQTT oder direktem URL Kommando kann das System ebenfalls bedient werden. Auch eine Simulation des Gerätes für Alexa ist in Tasmoata onboard, so kann man beispielsweise ein Routine erstellen á la: "Alexa, füttere die Fische". 
 
 
-
+# To be done
+- Snap On Chassis for the whole device at the fishtank
+- Include the ESP8266 and the Relais at the Chassis  (rework the Printfiles)
