@@ -2,6 +2,8 @@
 Creating an automatic feeding system for a fishtank, using a 3D Printer and a Servomotor of a central locking system from a car. 
 
 
+
+
 # Bauteilliste (in English below):
 - 2x M3x16 Schrauben
 - 2x 3,5x16 Senkkopfschrauben
@@ -13,5 +15,20 @@ Creating an automatic feeding system for a fishtank, using a 3D Printer and a Se
 - 5V USB Ladegerät, vorzugsweise 2,4A (1A funktioniert meistens auch)
 - USB A zu USB Micro Kabel 
 - "JBL Click Dispenser"
+
+
+# Konfiguration Tasmota
+Lediglich ein paar wenige Konfigurationen sind in der Console des ESP nötig, dass nach dem Einschalten das Relais nach kurzer Zeit automatisch abfällt. 
+```
+PowerOnState 0
+```
+```
+PulseTime 4
+```
+
+# Anschluss
+Auch wenn der Stellmotor für 12V ausgelegt ist, funktionert er auf 5V aus dem USB Netzteil ausreichend stark, um das Futter aus dem Spender abzusetzen. 
+Beim Anschluss des Stellmotors wird lediglich Plus und Minus benötigt. Hat man einen 5-poligen Stellmotor, muss man die beiden passenden Leitungen (durch ausprobieren) ermitteln. Der Rest bleibt unbelegt. 
+
 
 
